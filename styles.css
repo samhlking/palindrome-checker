@@ -1,0 +1,81 @@
+:root {
+    --bgColor-default: #fff;
+    --borderColor-default: #d0d7de;
+    --bgColor-darker: #f6f8fa;
+    --purple: #6B62FF;
+    --lighter-purple: #6B77FF;
+  }
+  
+  *, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  
+  main {
+    max-width: 700px;
+    text-align: center;
+    border: 1px solid var(--borderColor-default);
+    border-radius: 5px;
+    padding: 40px;
+    margin: 20px;
+  }
+  
+  main * {
+    margin-bottom: 20px;
+  }
+  
+  main img {
+    width: 100px;
+  }
+  
+  form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+  }
+  
+  #text-input {
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid var(--borderColor-default);
+    margin-right: 10px;
+    padding: 5px;
+  }
+  
+  #check-btn {
+    height: 30px;
+    width: 30px;
+    background-color: var(--purple);
+    border-radius: 5px;
+    border: 1px solid var(--lighter-purple);
+  }
+  
+  #check-btn:hover {
+    cursor: pointer;
+    background-color: var(--lighter-purple);
+  }
+  
+  #check-btn span {
+    padding: 0;
+    margin: 0;
+    color: white;
+  }
+  
+  
+  .info {
+    padding: 20px;
+    margin: 0;
+    background-color: var(--bgColor-darker);
+    border-radius: 5px;
+  }
+  
